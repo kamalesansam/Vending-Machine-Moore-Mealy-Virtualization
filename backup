@@ -1,0 +1,2122 @@
+<!DOCTYPE html><!-- Last Published: Sat Aug 02 2025 10:33:24 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.bittercreek.studio" data-wf-page="673af1c2580878ef0a1178e3" data-wf-site="673af1c2580878ef0a1178ee" lang="en"><head><meta charset="utf-8"/><title>Digital Office</title><meta content="We’re a visual production studio shaped by culture, built to influence." name="description"/><meta content="Bitter Creek" property="og:title"/><meta content="We’re a visual production studio shaped by culture, built to influence." property="og:description"/><meta content="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/673c8479286b2c99ddf08be4_bittercreek%20-%20og.jpg" property="og:image"/><meta content="Bitter Creek" property="twitter:title"/><meta content="We’re a visual production studio shaped by culture, built to influence." property="twitter:description"/><meta content="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/673c8479286b2c99ddf08be4_bittercreek%20-%20og.jpg" property="twitter:image"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/css/bttc-dev.shared.639194ef0.css" rel="stylesheet" type="text/css"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="logo.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/673c845b682effb06b8cabb1_webclip.png" rel="apple-touch-icon"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8XTNEF81NB"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('set', 'developer_id.dZGVlNj', true);gtag('config', 'G-8XTNEF81NB');</script><link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css">
+<script>
+  // Set CSS class based on sessionStorage state
+  if (!sessionStorage.getItem('preloaderShown')) {
+    document.documentElement.classList.add('show-preloader');
+  }
+</script>
+
+<!--<link rel="stylesheet" href="https://wm4ww3-3000.csb.app/styles.css"/>-->
+<style>
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+.hero-slider_head-text {
+  transition: all 400ms cubic-bezier(0.25, 1, 0.5, 1) 200ms;
+}
+
+.hero-slider_title,
+.hero-slider_hover {
+  padding: 0.1em 0;
+}
+
+[slide-underline],
+[toggle-click] {
+  position: relative;
+}
+
+[h-ul="target"] {
+  position: relative;
+}
+
+[h-ul="target"]:after {
+  content: "";
+  position: absolute;
+  height: 0.05em;
+  width: 100%;
+  background: currentColor;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 400ms cubic-bezier(0.25, 1, 0.5, 1) 100ms;
+  transform-origin: left;
+}
+
+.w--current [h-ul="target"]:after {
+  transform: scaleX(1);
+  transition: transform 400ms cubic-bezier(0.25, 1, 0.5, 1) 0ms;
+}
+
+.hero-slider_nav-item {
+  transition: width 400ms cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.hero-slider_item {
+  --mask-section: black 0% 100%;
+  mask-image: linear-gradient(90deg, var(--mask-section));
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-image: linear-gradient(90deg, var(--mask-section));
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.clip-overflow .slide-overlay {
+  opacity: 70%;
+}
+
+.clip-overflow .hero-slider_nav-item {
+  opacity: 0.2;
+}
+
+.clip-overflow .active.hero-slider_nav-item {
+  opacity: 1;
+}
+
+.clip-overflow .hero-intro_copy {
+  opacity: 0;
+}
+
+.nav-menu_dropdown.show-menu {
+  display: flex;
+}
+
+[dropdown="trigger"] {
+  cursor: pointer;
+}
+
+[toggle-click].active {
+  pointer-events: none;
+}
+
+[dropdown="hidden"].show-menu {
+  display: flex;
+}
+
+.work-list_item.active .project-list_img-component {
+  opacity: 1;
+}
+
+.link-fill {
+  pointer-events: auto;
+}
+
+[infinite-item] {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.director-inf_item.active {
+  mix-blend-mode: normal;
+}
+
+.nav-menu_dropdown {
+  pointer-events: none;
+}
+.nav-menu {
+  pointer-events: none;
+}
+
+.menu-item {
+  clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+}
+
+.directors-infinite.show-img .director-img_wrap {
+  opacity: 1;
+}
+
+.s-l {
+  padding-bottom: 0.1em;
+  margin-bottom: -0.1em;
+}
+
+.culture-grid_item {
+  transition: all 600ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pos-east {
+  transform: translateX(-50vw);
+}
+
+.pos-west {
+  transform: translateX(50vw);
+}
+
+[lottie-hidden] {
+  visibility: hidden;
+}
+
+[pload-split] {
+  opacity: 0;
+}
+
+html {
+  --plyr-range-thumb-height: 0px;
+  --plyr-control-radius: 0px;
+  --plyr-range-track-height: 1px;
+}
+
+.plyr--video .plyr__controls {
+  --plyr-color-main: transparent;
+  background: transparent;
+  padding: var(--size--1-25rem);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  color: #fff;
+  position: fixed;
+  transition: none !important;
+  bottom: auto;
+  pointer-events: none;
+  transition: opacity 0.3s ease-out;
+}
+
+.plyr_stretch {
+  display: flex;
+  column-gap: var(--size--1-25rem);
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plyr_col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 5em;
+  justify-content: start;
+}
+
+.plyr--full-ui input[type="range"] {
+  -webkit-appearance: none;
+  border-radius: 0 !important;
+  color: #fff;
+}
+
+.plyr--full-ui input[type="range"]::-webkit-slider-thumb,
+.plyr--full-ui input[type="range"]::-moz-range-thumb,
+.plyr--full-ui input[type="range"]::-ms-thumb {
+  opacity: 0 !important;
+}
+
+.plyr__progress {
+  width: 100%;
+}
+
+.plyr__control {
+  padding: 0;
+}
+
+.plyr video {
+  object-fit: cover;
+}
+
+.plyr--video {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+[video-close] {
+  cursor: pointer;
+}
+
+.plyr--video.plyr--hide-controls .plyr__controls {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms ease-out;
+}
+
+.plyr {
+  font-variant-numeric: normal;
+}
+
+.work-list_item.show-clones .list-clone_wrap {
+  opacity: 1;
+}
+
+.work-list_section .work-list_item:nth-child(3n + 1) .list-clone_wrap {
+  align-items: flex-start;
+}
+
+.work-list_section .work-list_item:nth-child(3n + 2) .list-clone_wrap {
+  align-items: center;
+}
+
+.work-list_section .work-list_item:nth-child(3n + 3) .list-clone_wrap {
+  align-items: flex-end;
+}
+
+.footer-component [h-ul="target"] {
+  padding: 0 0.1em;
+}
+
+.footer-component [h-ul="target"]:after {
+  height: 100%;
+  bottom: 0.1em;
+  mix-blend-mode: difference;
+  background: #fff;
+  transition: transform 400ms cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.footer-component [h-ul="trigger"]:hover [h-ul="target"]:after,
+.contact-right [h-ul="trigger"]:hover [h-ul="target"]:after {
+  transition: transform 0ms cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+[h-underline].current-filter [h-underline="target"]:after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.work-filter_trigger [h-underline="target"]:after {
+  height: 1px;
+}
+
+.contact-right [h-ul="target"]:after,
+.contact-footer [h-ul="target"]:after {
+  height: 100%;
+  bottom: 0.1em;
+  mix-blend-mode: difference;
+  background: #000;
+  transition: transform 400mscubic-bezier(0.25, 1, 0.5, 1);
+  filter: invert(1);
+}
+
+.contact-right [h-ul="target"],
+.contact-footer [h-ul="target"] {
+  padding: 0 0.1em;
+  color: #fff;
+  filter: invert(1);
+}
+
+.footer-component .w--current [h-ul="target"]:after {
+  transform: scaleX(0);
+}
+
+.footer-component .w--current:hover [h-ul="target"]:after {
+  transform: scaleX(1);
+}
+
+.active [slide-underline]:after,
+.active[toggle-click]:after {
+  transform: scaleX(1);
+  transition: transform 400ms cubic-bezier(0.25, 1, 0.5, 1) 400ms;
+}
+
+[slide-underline]:after,
+[toggle-click]:after {
+  content: "";
+  position: absolute;
+  height: 0.05em;
+  width: 100%;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 400ms cubic-bezier(0.25, 1, 0.5, 1) 0ms;
+  transform-origin: left;
+}
+
+[img-scroll] img {
+  height: 120%;
+  top: auto;
+}
+
+[img-scroll] {
+  overflow: clip;
+}
+
+.preloader-component {
+  display: none;
+}
+
+.show-preloader .preloader-component {
+  display: flex;
+}
+
+@media only screen and (min-width: 992px) {
+  .next-work_item .work-list_rich.u-text-style-small_nm.w-richtext,
+  .work-list_section .work-list_rich.u-text-style-small_nm.w-richtext {
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  [h-ul="trigger"]:hover [h-ul="target"]:after {
+    transform: scaleX(1);
+    transition: transform 400ms cubic-bezier(0.25, 1, 0.5, 1) 0ms;
+  }
+
+  .hero-slider_nav-item.active .hero-slider_hover:hover + .hero-slider_popup {
+    display: block;
+  }
+
+  .hero-slider_head-text {
+    transform: translateY(100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+  }
+
+  .active .hero-slider_head-text {
+    transform: translateY(0%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+
+  .active .hero-slider_hover,
+  .active .hero-slider_title {
+    pointer-events: auto;
+  }
+
+  .active .hero-slider_title,
+  .active .hero-slider_num,
+  .active .hero-slider_hover {
+    z-index: 3;
+  }
+
+  body:has([data-cursor]:hover) .cursor {
+    opacity: 1;
+  }
+
+  .director-short {
+    visibility: hidden;
+  }
+
+  .director-inf_item.active .director-short {
+    visibility: visible;
+  }
+
+  .project-link:hover img {
+    opacity: 0;
+  }
+}
+body,
+html {
+  overscroll-behavior: none;
+}
+
+.plyr audio,
+.plyr iframe,
+.plyr video {
+  height: auto;
+  margin-top: auto !important;
+  margin-bottom: auto;
+}
+
+@media only screen and (max-width: 991px) {
+  .active .hero-slider_popup {
+    display: flex;
+  }
+
+  [b-text_wrap] {
+    overflow: clip;
+    padding-bottom: 0;
+  }
+
+  .plyr--video .plyr__controls {
+    bottom: 1rem;
+  }
+
+  .plyr--video.plyr--hide-controls .plyr__controls {
+    opacity: 1;
+  }
+
+  * {
+    -webkit-user-select: none; /* Safari, Chrome */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+  }
+
+  .text-link_wrap .s-l {
+    padding-bottom: 0.1em;
+  }
+
+  .fullscreen .culture-visual_wrap {
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #000000;
+  }
+
+  .pos-east {
+    transform: translateX(-100vw);
+  }
+
+  .pos-west {
+    transform: translateX(100vw);
+  }
+
+  .plyr audio,
+  .plyr iframe,
+  .plyr video {
+    height: auto;
+    margin-top: auto !important;
+    margin-bottom: auto;
+  }
+
+  .current-next.next-work_item {
+    display: flex !important;
+  }
+
+  .contact-right [h-ul="target"]:after {
+    height: 1px;
+    transform: scaleX(1);
+  }
+
+  .contact-right [h-ul="target"] {
+    margin-bottom: 0.5em !important;
+  }
+
+  [aspect-ratio="portrait"] .plyr video {
+    height: 100%;
+  }
+
+  .single-wrap .extra-small_text {
+    font-size: 0.875rem !important;
+  }
+}
+
+</style></head><body><style>:root {--size--1-875rem: clamp(1.5rem, 1.3928571428571428rem + 0.5357142857142857vw, 1.875rem);}</style><div class="page_code_wrap"><div class="page_code_base w-embed"><style>
+:root {
+  --site--column-count: 12;
+  --site--max-width: min(var(--site--width), 100vw);
+  --container--main: calc(var(--site--max-width) - var(--site--margin) * 2);
+  --container--full: calc(100vw - var(--site--margin) * 2);
+  --container--small: calc(var(--column-width--plus-gutter) * (var(--site--column-count) - 6) - var(--site--gutter));
+  --site--gutter-total: calc(var(--site--gutter) * (var(--site--column-count) - 1));
+  --column-width--1: calc((var(--container--main) - var(--site--gutter-total)) / var(--site--column-count));
+  --column-width--plus-gutter: calc(var(--column-width--1) + var(--site--gutter));
+  --column-width--2: calc(var(--column-width--plus-gutter) * 2 - var(--site--gutter));
+  --column-width--3: calc(var(--column-width--plus-gutter) * 3 - var(--site--gutter));
+  --column-width--4: calc(var(--column-width--plus-gutter) * 4 - var(--site--gutter));
+  --column-width--5: calc(var(--column-width--plus-gutter) * 5 - var(--site--gutter));
+  --column-width--6: calc(var(--column-width--plus-gutter) * 6 - var(--site--gutter));
+  --column-width--7: calc(var(--column-width--plus-gutter) * 7 - var(--site--gutter));
+  --column-width--8: calc(var(--column-width--plus-gutter) * 8 - var(--site--gutter));
+  --column-width--9: calc(var(--column-width--plus-gutter) * 9 - var(--site--gutter));
+  --column-width--10: calc(var(--column-width--plus-gutter) * 10 - var(--site--gutter));
+  --column-width--11: calc(var(--column-width--plus-gutter) * 11 - var(--site--gutter));
+  --column-width--12: calc(var(--column-width--plus-gutter) * 12 - var(--site--gutter));
+  --column-margin--1: calc(var(--column-width--plus-gutter) * 1);
+  --column-margin--2: calc(var(--column-width--plus-gutter) * 2);
+  --column-margin--3: calc(var(--column-width--plus-gutter) * 3);
+  --column-margin--4: calc(var(--column-width--plus-gutter) * 4);
+  --column-margin--5: calc(var(--column-width--plus-gutter) * 5);
+  --column-margin--6: calc(var(--column-width--plus-gutter) * 6);
+  --column-margin--7: calc(var(--column-width--plus-gutter) * 7);
+  --column-margin--8: calc(var(--column-width--plus-gutter) * 8);
+  --column-margin--9: calc(var(--column-width--plus-gutter) * 9);
+  --column-margin--10: calc(var(--column-width--plus-gutter) * 10);
+  --column-margin--11: calc(var(--column-width--plus-gutter) * 11);
+  --column-margin--12: calc(var(--column-width--plus-gutter) * 12);
+  --breakout-start: [full-start] minmax(0, 1fr) [content-start];
+  --breakout-end: [content-end] minmax(0, 1fr) [full-end];
+  --grid-breakout-single: var(--breakout-start) minmax(0, var(--container--main)) var(--breakout-end);
+  --grid-breakout: var(--breakout-start) repeat(var(--site--column-count), minmax(0, var(--column-width--1))) var(--breakout-end);
+  --grid-main: repeat(var(--site--column-count), minmax(0, 1fr));
+  --grid-1: repeat(1, minmax(0, 1fr));
+  --grid-2: repeat(2, minmax(0, 1fr));
+  --grid-3: repeat(3, minmax(0, 1fr));
+  --grid-4: repeat(4, minmax(0, 1fr));
+  --grid-5: repeat(5, minmax(0, 1fr));
+  --grid-6: repeat(6, minmax(0, 1fr));
+  --grid-7: repeat(7, minmax(0, 1fr));
+  --grid-8: repeat(8, minmax(0, 1fr));
+  --grid-9: repeat(9, minmax(0, 1fr));
+  --grid-10: repeat(10, minmax(0, 1fr));
+  --grid-11: repeat(11, minmax(0, 1fr));
+  --grid-12: repeat(12, minmax(0, 1fr));
+
+  --font-weight--inherit: inherit;
+  --font-weight--100: 100;
+  --font-weight--200: 200;
+  --font-weight--300: 300;
+  --font-weight--400: 400;
+  --font-weight--500: 500;
+  --font-weight--600: 600;
+  --font-weight--700: 700;
+  --font-weight--800: 800;
+  --font-weight--900: 900;
+  --text-transform--none: none;
+  --text-transform--uppercase: uppercase;
+  --text-transform--capitalize: capitalize;
+  --text-transform--lowercase: lowercase;
+  --text-transform--inherit: inherit;
+}
+* {
+	vertical-align: bottom;
+}
+body {
+	font-weight: var(--text-main--font-weight);
+	text-transform: var(--text-main--text-transform);
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+}
+label, blockquote {
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+button {
+	background-color: unset;
+	padding: unset;
+	text-align: inherit;
+}
+button:not(:disabled) {
+	cursor: pointer;
+}
+video {
+	width: 100%;
+	object-fit: cover;
+}
+video.wf-empty {
+	padding: 0;
+}
+svg {
+	max-width: 100%;
+}
+section, header, footer {
+	position: relative;
+}
+@media (prefers-color-scheme: light) {
+	option {
+		color: black;
+	}
+}
+img::selection {
+	background: transparent;
+}
+a:not([class]) {
+	text-decoration: underline;
+}
+.w-richtext a {
+	position: relative;
+	z-index: 4;
+}
+[class*="u-text-style-"] > :where(h1,h2,h3,h4,h5,h6,p,blockquote) {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	letter-spacing: inherit;
+	text-transform: inherit;
+	text-wrap: inherit;
+	margin-top: inherit;
+	margin-bottom: inherit;
+}
+:not(.u-margin-trim-off, .u-block-gap, .w-background-video) > :not(:not(.w-condition-invisible) ~ :not(.w-condition-invisible)) {
+	margin-top: 0;
+}
+:not(.u-margin-trim-off, .u-block-gap, .w-background-video) > :not(:has(~ :not(.w-condition-invisible))) {
+	margin-bottom: 0;
+}
+
+.u-hide-if-empty:empty,
+.u-hide-if-empty:not(:has(> :not(.w-condition-invisible))),
+.u-hide-if-empty-cms:not(:has(.w-dyn-item)),
+.w-richtext[class*="u-text-style-"] > :not(h1,h2,h3,h4,h5,h6,p,blockquote,ul,ol,span),
+.u-embed-js,
+.u-embed-css {
+	display: none !important;
+}
+
+.u-line-clamp-1, .u-line-clamp-2, .u-line-clamp-3, .u-line-clamp-4 {
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+.u-line-clamp-2 { -webkit-line-clamp: 2; }
+.u-line-clamp-3 { -webkit-line-clamp: 3; }
+.u-line-clamp-4 { -webkit-line-clamp: 4; }
+
+a, button, [tabindex],
+.w-checkbox-input--inputType-custom,
+.w-form-formradioinput--inputType-custom {
+	outline-offset: var(--focus--offset-outer);
+}
+a:focus-visible,
+button:focus-visible,
+[tabindex]:focus-visible,
+.w-checkbox:has(:focus-visible) .w-checkbox-input--inputType-custom,
+.w-radio:has(:focus-visible) .w-form-formradioinput--inputType-custom {
+	outline-color: var(--theme--text);
+	outline-width: var(--focus--width);
+	outline-style: solid;
+}
+.w-checkbox-input--inputType-custom.w--redirected-focus,
+.w-form-formradioinput--inputType-custom.w--redirected-focus {
+	box-shadow: none;
+}
+
+.u-block-gap {
+	--gap: var(--content-space--button-group-gap);
+	--gap-x: var(--gap);
+	--gap-y: var(--gap);
+}
+.u-block-gap > * {
+	margin-inline: calc(var(--gap-x) / 2);
+	margin-top: var(--gap-y);
+	vertical-align: inherit;
+}
+:where(.u-block-gap > *) {
+	display: inline-block;
+}
+.u-block-gap::before {
+	content: "";
+	display: block;
+	margin-bottom: calc(var(--gap-y) * -1);
+}
+
+.u-block-gap-vertical {
+	--gap: 0;
+	--margin: var(--gap);
+}
+.u-block-gap-vertical > * {
+	margin-top: var(--margin);
+	margin-bottom: 0;
+}
+
+.u-gap-0 { --gap: 0; }
+.u-gap-1 { --gap: var(--space--1); }
+.u-gap-2 { --gap: var(--space--2); }
+.u-gap-3 { --gap: var(--space--3); }
+.u-gap-4 { --gap: var(--space--4); }
+.u-gap-5 { --gap: var(--space--5); }
+.u-gap-6 { --gap: var(--space--6); }
+.u-gap-7 { --gap: var(--space--7); }
+.u-gap-8 { --gap: var(--space--8); }
+.u-gap-gutter { --gap: var(--site--gutter); }
+.u-gap-row-0 { --gap-y: 0; }
+.u-gap-row-1 { --gap-y: var(--space--1); }
+.u-gap-row-2 { --gap-y: var(--space--2); }
+.u-gap-row-3 { --gap-y: var(--space--3); }
+.u-gap-row-4 { --gap-y: var(--space--4); }
+.u-gap-row-5 { --gap-y: var(--space--5); }
+.u-gap-row-6 { --gap-y: var(--space--6); }
+.u-gap-row-7 { --gap-y: var(--space--7); }
+.u-gap-row-8 { --gap-y: var(--space--8); }
+.u-gap-row-gutter { --gap-y: var(--site--gutter); }
+
+.u-child-contain > * {
+	display: inline-block;
+	width: 100%;
+	max-width: inherit;
+	margin-top: 0;
+}
+
+.u-text-margin-none :is([class*="u-text-style-"],h1,h2,h3,h4,h5,h6,p) {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+[data-padding-top="none"] { padding-top: var(--section-space--none); }
+[data-padding-bottom="none"] { padding-bottom: var(--section-space--none); }
+
+[data-padding-top="small"] { padding-top: var(--section-space--small); }
+[data-padding-bottom="small"] { padding-bottom: var(--section-space--small); }
+
+[data-padding-top="main"] { padding-top: var(--section-space--main); }
+[data-padding-bottom="main"] { padding-bottom: var(--section-space--main); }
+
+[data-padding-top="large"] { padding-top: var(--section-space--large); }
+[data-padding-bottom="large"] { padding-bottom: var(--section-space--large); }
+
+.wf-design-mode .g_clickable_wrap {
+	z-index: 0;
+}
+.g_clickable_wrap a[href="#"] {
+	display: none;
+}
+.g_clickable_wrap a[href="#"] ~ button {
+	display: block;
+}
+</style></div><div class="page_code_color w-embed"><style>
+/* theme light */
+:root,
+[data-theme="light"],
+[data-theme="dark"] [data-theme="invert"] {
+	--theme--background: var(--swatch--light);
+	--theme--text: var(--swatch--black);
+	--theme--border: var(--swatch--dark-faded);
+	/* button primary */
+	--button--background: var(--swatch--brand);
+	--button--text: var(--swatch--brand-text);
+	--button--border: var(--swatch--brand);
+	--button--background-hover: var(--swatch--dark);
+	--button--text-hover: var(--swatch--light);
+	--button--border-hover: var(--swatch--dark);
+	/* button secondary */
+	--button-secondary--background: var(--swatch--transparent);
+	--button-secondary--text: var(--swatch--dark);
+	--button-secondary--border: var(--swatch--dark-faded);
+	--button-secondary--background-hover: var(--swatch--brand);
+	--button-secondary--text-hover: var(--swatch--brand-text);
+	--button-secondary--border-hover: var(--swatch--brand);
+}
+/* theme dark */
+[data-theme="dark"],
+[data-theme="invert"],
+[data-theme="light"] [data-theme="invert"] {
+	--theme--background: var(--swatch--dark);
+	--theme--text: var(--swatch--light);
+	--theme--border: var(--swatch--light-faded);
+	/* button primary */
+	--button--background: var(--swatch--brand);
+	--button--text: var(--swatch--brand-text);
+	--button--border: var(--swatch--brand);
+	--button--background-hover: var(--swatch--light);
+	--button--text-hover: var(--swatch--dark);
+	--button--border-hover: var(--swatch--light);
+	/* button secondary */
+	--button-secondary--background: var(--swatch--transparent);
+	--button-secondary--text: var(--swatch--light);
+	--button-secondary--border: var(--swatch--light-faded);
+	--button-secondary--background-hover: var(--swatch--brand);
+	--button-secondary--text-hover: var(--swatch--brand-text);
+	--button-secondary--border-hover: var(--swatch--brand);
+}
+/* button secondary */
+[data-button-style="secondary"] {
+	--button--background: var(--button-secondary--background);
+	--button--text: var(--button-secondary--text);
+	--button--border: var(--button-secondary--border);
+	--button--background-hover: var(--button-secondary--background-hover);
+	--button--text-hover: var(--button-secondary--text-hover);
+	--button--border-hover: var(--button-secondary--border-hover);
+}
+/* apply colors */
+:is(c, :where([data-theme]:not([data-theme="inherit"]))) {
+	background-color: var(--theme--background);
+	color: var(--theme--text);
+}
+</style></div><div class="page_code_responsive w-embed"><style>
+/* https://fluidbuilder.webflow.io/?design=90&max=120&min=24&f&g=--site--margin,1.25,0.625_--size--1-875rem,1.875,1.675_--size--2rem,2,1.75_--size--2-5rem,2.5,2_--size--3rem,3,2.25_--size--3-5rem,3.5,2.375_--size--4rem,4,2.5_--size--4-5rem,4.5,2.75_--size--5rem,5,3_--size--5-5rem,5.5,3.25_--size--6rem,6,3.5_--size--6-5rem,6.5,3.75_--size--7rem,7,4_--size--7-5rem,7.5,4.25,t_--size--8rem,8,4.5_--size--8-5rem,8.5,4.75_--size--9rem,9,5_--size--9-5rem,9.5,5.25_--size--10rem,10,5.5_--size--11rem,11,5.75_--size--12rem,12,6_--size--13rem,13,6.5_--size--14rem,14,7_--size--15rem,15,7.5_--size--16rem,16,8_--size--18rem,18,9 */
+
+:root {
+	--site--margin: clamp(0.625rem, 0.397rem + 0.95vw, 1.535rem);
+	--size--1-875rem: clamp(1.675rem, 1.603rem + 0.3vw, 1.965rem);
+	--size--2rem: clamp(1.75rem, 1.6588rem + 0.38vw, 2.114rem);
+	--size--2-5rem: clamp(2rem, 1.8176rem + 0.76vw, 2.728rem);
+	--size--3rem: clamp(2.25rem, 1.9764rem + 1.14vw, 3.342rem);
+	--size--3-5rem: clamp(2.375rem, 1.967rem + 1.7vw, 4.01rem);
+	--size--4rem: clamp(2.5rem, 1.9552rem + 2.27vw, 4.681rem);
+	--size--4-5rem: clamp(2.75rem, 2.114rem + 2.65vw, 5.295rem);
+	--size--5rem: clamp(3rem, 2.2728rem + 3.03vw, 5.909rem);
+	--size--5-5rem: clamp(3.25rem, 2.4316rem + 3.41vw, 6.523rem);
+	--size--6rem: clamp(3.5rem, 2.5904rem + 3.79vw, 7.137rem);
+	--size--6-5rem: clamp(3.75rem, 2.7492rem + 4.17vw, 7.751rem);
+	--size--7rem: clamp(4rem, 2.908rem + 4.55vw, 8.365rem);
+	--size--7-5rem: clamp(4.25rem, 3.0692rem + 4.92vw, 8.976rem);
+	--size--8rem: clamp(4.5rem, 3.228rem + 5.3vw, 9.59rem);
+	--size--8-5rem: clamp(4.75rem, 3.3868rem + 5.68vw, 10.204rem);
+	--size--9rem: clamp(5rem, 3.5456rem + 6.06vw, 10.818rem);
+	--size--9-5rem: clamp(5.25rem, 3.7044rem + 6.44vw, 11.432rem);
+	--size--10rem: clamp(5.5rem, 3.8632rem + 6.82vw, 12.046rem);
+	--size--11rem: clamp(5.75rem, 3.842rem + 7.95vw, 13.385rem);
+	--size--12rem: clamp(6rem, 3.8184rem + 9.09vw, 14.727rem);
+	--size--13rem: clamp(6.5rem, 4.136rem + 9.85vw, 15.955rem);
+	--size--14rem: clamp(7rem, 4.4536rem + 10.61vw, 17.183rem);
+	--size--15rem: clamp(7.5rem, 4.7736rem + 11.36vw, 18.408rem);
+	--size--16rem: clamp(8rem, 5.0912rem + 12.12vw, 19.636rem);
+	--size--18rem: clamp(9rem, 5.7264rem + 13.64vw, 22.092rem);
+}
+</style></div><div class="page_code_custom w-embed"><style>
+
+/* Custom project items */
+.projects-grid_item:nth-child(12n + 1),
+.projects-grid_item:nth-child(12n + 2),
+.projects-grid_item:nth-child(12n + 6),
+.projects-grid_item:nth-child(12n + 9),
+.projects-grid_item:nth-child(12n + 10) {
+  grid-column-end: span 6;
+}
+
+.projects-grid_item:nth-child(12n + 3),
+.projects-grid_item:nth-child(12n + 4),
+.projects-grid_item:nth-child(12n + 5) {
+  grid-column-end: span 4;
+}
+
+.projects-grid_item:nth-child(12n + 7),
+.projects-grid_item:nth-child(12n + 8) {
+  grid-column-end: span 3;
+}
+
+
+
+.projects-grid_item:nth-child(12n + 11),
+.projects-grid_item:nth-child(12n + 12) {
+  grid-column-end: span 4;
+}
+
+.projects-grid_item:nth-child(12n + 12) {
+  grid-column-start: 9;
+}
+
+[h-underline="trigger"]:hover [h-underline="target"]:after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+[h-underline="target"] {
+  position: relative;
+  display: inline-block;
+}
+
+[h-underline="target"]:after {
+    content: "";
+    position: absolute;
+    height: 0.075em;
+    width: 100%;
+    background: currentColor;
+    top: 100%;
+    left: 0;
+    transition: transform 0.3s ease;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+
+
+.project-list_img-component video{
+	height: 100%;
+}
+
+.work-list_item:nth-child(9n + 1) .project-list_img-holder,
+.work-list_item:nth-child(9n + 2) .project-list_img-holder,
+.work-list_item:nth-child(9n + 3) .project-list_img-holder {
+  grid-row-start: 1;
+}
+
+.work-list_item:nth-child(9n + 4) .project-list_img-holder,
+.work-list_item:nth-child(9n + 5) .project-list_img-holder,
+.work-list_item:nth-child(9n + 6) .project-list_img-holder {
+  grid-row-start: 2;
+}
+.work-list_item:nth-child(9n + 7) .project-list_img-holder,
+.work-list_item:nth-child(9n + 8) .project-list_img-holder,
+.work-list_item:nth-child(9n + 9) .project-list_img-holder {
+  grid-row-start: 3;
+}
+
+.work-list_item:nth-child(9n + 1) .project-list_img-holder,
+.work-list_item:nth-child(9n + 4) .project-list_img-holder,
+.work-list_item:nth-child(9n + 7) .project-list_img-holder {
+  grid-column-start: 1;
+}
+
+.work-list_item:nth-child(9n + 2) .project-list_img-holder,
+.work-list_item:nth-child(9n + 5) .project-list_img-holder,
+.work-list_item:nth-child(9n + 8) .project-list_img-holder {
+  grid-column-start: 2;
+}
+
+.work-list_item:nth-child(9n + 3) .project-list_img-holder,
+.work-list_item:nth-child(9n + 6) .project-list_img-holder,
+.work-list_item:nth-child(9n + 9) .project-list_img-holder {
+  grid-column-start: 3;
+}
+
+.director-img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.work-page.grid-view .work-grid_section {
+  display: block;
+}
+
+/*body.list-view .grid-list_toggle {
+  flex-direction: column-reverse;
+}*/
+
+.work-page.grid-view .work-list_section {
+  display: none;
+}
+
+.work-page.list-view .work-grid_section {
+  display: none;
+}
+
+.work-page.list-view .work-list_section {
+  display: block;
+}
+
+.culture-grid_item:nth-child(9n + 1),
+.culture-grid_item:nth-child(9n + 5),
+.culture-grid_item:nth-child(9n + 6),
+.culture-grid_item:nth-child(9n + 9) {
+  grid-column-end: span 2;
+}
+
+.culture-grid_item:nth-child(9n + 2),
+.culture-grid_item:nth-child(9n + 7) {
+  grid-column-end: span 3;
+}
+
+.culture-grid_item:nth-child(9n + 3),
+.culture-grid_item:nth-child(9n + 8) {
+  grid-column-end: span 4;
+}
+
+.culture-grid_item:nth-child(9n + 4) {
+  grid-column-end: span 5;
+}
+
+.culture-grid_item:nth-child(9n + 1) {
+  grid-column-start: 1;
+}
+
+.culture-grid_item:nth-child(9n + 2) {
+  grid-row-start: 2;
+  grid-column-start: 5;
+}
+
+.culture-grid_item:nth-child(9n + 3) {
+  grid-row-start: 2;
+  grid-column-start: 9;
+}
+
+.culture-grid_item:nth-child(9n + 4) {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.culture-grid_item:nth-child(9n + 5) {
+  grid-column-start: 8;
+  grid-row-start: 3;
+}
+
+.culture-grid_item:nth-child(9n + 6) {
+  grid-column-start: 11;
+  grid-row-start: 3;
+}
+
+.culture-grid_item:nth-child(9n + 7) {
+  grid-column-start: 2;
+  grid-row-start: 4;
+}
+
+.culture-grid_item:nth-child(9n + 8) {
+  grid-column-start: 6;
+  grid-row-start: 4;
+}
+
+.culture-grid_item:nth-child(9n + 9) {
+  grid-column-start: 10;
+  grid-row-start: 5;
+}
+
+.page-main.is-contact .nav-wrap {
+  color: var(--swatch--black);
+  mix-blend-mode: normal;
+}
+
+[b-hov] {
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+[b-bg] {
+  background-color: currentColor;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  position: absolute;
+  inset: 0%;
+  transform: translateY(101%);
+}
+
+[b-hov]:hover {
+  /*transform: scale(0.985);*/
+}
+
+:is([b-hov]):hover [b-text] {
+  transform: translateY(-1em);
+}
+
+[b-hov]:hover [b-bg] {
+  transform: translateY(0%);
+}
+
+
+
+[b-text] {
+  text-shadow: 0 1em 0 var(--swatch--light);
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  color: var(--swatch--black);
+}
+
+.is-alt [b-bg] {
+  background-color: var(--swatch--light);
+}
+
+.is-alt [b-text] {
+  text-shadow: 0 1em 0 var(--swatch--black);
+  color: var(--swatch--light);
+}
+
+.btn-el.is-alt {
+    border: 1px solid #fff;
+}
+
+.project-link .project-overlay .u-hflex-between-center, .project-link .project-overlay .u-hflex-between-stretch{
+  transition: transform 600ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.project-link .project-overlay .u-hflex-between-center{
+  transform: translateY(-130%);
+}
+
+.project-link .project-overlay .u-hflex-between-stretch{
+  transform: translateY(130%);
+}
+
+.project-link:hover .project-overlay .u-hflex-between-center{
+  transform: translateY(0%);
+}
+
+.project-link:hover .project-overlay .u-hflex-between-stretch{
+  transform: translateY(0%);
+}
+
+.screensaver{
+	clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
+}
+
+.project-visual video{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+  [b-text_wrap] {
+    overflow: clip;
+    padding-bottom: 0.15em;
+  }
+  
+  .projects-col_item.alt-layout:last-child .is-number {
+    display: none;
+  }
+
+  .projects-grid_item:nth-child(12n + 7) .is-number,
+  .projects-grid_item:nth-child(12n + 8) .is-number {
+    display: none;
+  }
+}
+
+</style></div></div><div class="styleguide_guide_wrap"><div class="w-embed"><style>
+html:not(.wf-design-mode) .styleguide_guide_wrap {
+	display: none;
+}
+.styleguide_guide_layout {
+	counter-reset: gridguides;
+}
+.styleguide_guide_layout > div::before {
+  counter-increment: gridguides;
+  content: counter(gridguides);
+}
+</style></div><div data-padding-bottom="none" data-padding-top="none" class="styleguide_guide_contain u-container"><div class="styleguide_guide_layout u-grid-custom"><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div><div class="styleguide_guide_column u-vflex-center-bottom"></div></div></div></div><div id="swup" class="page-main home-page"><div class="nav-wrap"><div class="nav-contain u-container"><div class="nav-layout"><a href="/" aria-current="page" class="nav-logo w-inline-block w--current"><img src="logo.png" alt="Digital Office" style="width: 100%; max-width: 200px;">
+</a>
+<div class="nav-menu u-text-align-right">
+  <div class="menu-trigger"><div h-ul="trigger" class="menu-trigger_wrap">
+    <p h-ul="target" class="u-text_std-large">menu</p>
+  </div>
+  <div class="nav-menu_dropdown">
+    <a h-ul="trigger" href="/studio" class="menu-item w-inline-block">
+      <p h-ul="target" class="u-text_std-large">studio</p>
+    </a>
+    <a h-ul="trigger" href="/work" class="menu-item w-inline-block">
+      <p h-ul="target" class="u-text_std-large">work</p>
+    </a>
+    <a h-ul="trigger" href="/directors" class="menu-item w-inline-block">
+      <p h-ul="target" class="u-text_std-large">directors</p>
+    </a>
+    <a h-ul="trigger" href="/contact" class="menu-item w-inline-block">
+      <p h-ul="target" class="u-text_std-large">contact</p>
+    </a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="page_wrap">
+  <div class="hero-slider">
+    <div class="hero-slider_nav-wrap u-container w-dyn-list">
+      <div role="list" class="hero-slider_nav-list w-dyn-items">
+        <div role="listitem" class="hero-slider_nav-item w-dyn-item">
+          <a href="/projects/ghostpoet-oh-lord" class="w-inline-block">
+            <h2 slide-underline="" class="hero-slider_num">GP02</h2>
+          </a>
+          <h2 class="hero-slider_head-text is-inactive">Ghostpoet - Oh Lord!</h2>
+          <a href="/projects/ghostpoet-oh-lord" class="hero-slider_hover w-inline-block">
+            <h2 trigger-overlay="" slide-underline="" class="hero-slider_head-text">View Project</h2>
+          </a>
+          <div class="hero-slider_popup">
+            <div class="hero-popup_contain u-container">
+              <div class="hero-popup_layout u-grid-custom">
+                <div class="hero-popup_col-1 u-column-1 is-desktop">
+                  <p class="u-text-style-small extra-small">London, UK</p>
+                </div>
+                <div class="hero-popup_col-2 u-column-1">
+                  <p class="u-text-style-small_nm extra-small">Ghostpoet - Oh Lord!</p>
+                  <p class="u-text-style-small extra-small">2024</p>
+                  <div class="popup-types_wrap w-dyn-list">
+                    <div role="list" class="popup-types_list w-dyn-items">
+                      <div role="listitem" class="popup-types_item w-dyn-item">
+                        <div class="u-text-style-small extra-small">
+                          Music
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="u-text-style-small_nm extra-small">
+                    03:40
+                  </p>
+                  <div class="swipe-text">
+                    Swipe
+                  </div>
+                </div>
+                <div class="hero-popup_col-2 u-column-2 is-desktop">
+                  <div class="u-rich-text u-text-style-small extra-small w-richtext">
+                    <p>
+                      Taken from the twice Mercury Prize-nominated artist&#x27;s new EP Am I The Change I Wish To See?, Oh Lord! was inspired by a moment of contemplation about what it would look like to see Black people enjoying themselves in Heaven. And for its part, the video takes the viewer on a communal journey that transcends the conventional depiction of Heaven.
+                    </p>
+                  </div
+                  ></div>
+                  <div class="hero-popup_col-2 u-column-2 is-desktop">
+                    <div class="u-rich-text u-text-style-small extra-small w-richtext">
+                      <p>
+                        Director: Nick Carter
+                        <br/>Co-Director: Ghostpoet<br/>
+                        1st Assistant Director: Helena Hamilton
+                      </p>
+                      <p>
+                        Extras: Tony Njoku, Ovie Ejimiwe, Louis Broomes, João Henriques, Jason Lawrence
+                      </p>
+                      <p>Director of Photography: Louis Brennan<br/>
+                        1st Assistant Camera: Lewis Watts<br/>
+                        2nd Assistant Camera: Holly Murray Smith<br/>
+                        Steadicam Operator: Nicolas di Matteo<br/>
+                        Camera Trainee: Ryan Simpson<br/>
+                        Gaffer: Will Churchill<br/>
+                        Spark: Bo Morgan<br/>
+                        Camera &amp; Lighting Assistants: Thomas Wood, Lui Bauer, Kiera Simpson
+                      </p>
+                      <p>
+                        Set Dresser: Anika Roach
+                        <br/>
+                        Hair &amp; Make-Up Artist: Claire Field
+                        <br/>
+                        Catering: Rosemarie Ejimiwe
+                        <br/>
+                        Catering: Oke Ejimiwe
+                        <br/>
+                        Unit Stills: Matt Towers
+                      </p>
+                      <p>
+                        Production Company: Bitter Creek<br/>
+                        Post Production Finishing: Racoon<br/>
+                        Senior Colourist: Enge Gray
+                      </p>
+                      <p>
+                        Equipment Rental: CameraWorks, Brewer Rigging LTD<br/>
+                      </p>
+                      <p>
+                        Special Thanks: Hackney Bridge
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div role="listitem" class="hero-slider_nav-item w-dyn-item">
+            <a href="/projects/liam-gallagher-icon-magazine" class="w-inline-block">
+              <h2 slide-underline="" class="hero-slider_num">
+                LGO2
+              </h2>
+            </a>
+            <h2 class="hero-slider_head-text is-inactive">
+              Liam Gallagher x ICON Magazine
+            </h2>
+            <a href="/projects/liam-gallagher-icon-magazine" class="hero-slider_hover w-inline-block">
+              <h2 trigger-overlay="" slide-underline="" class="hero-slider_head-text">
+                View Project
+              </h2>
+            </a>
+            <div class="hero-slider_popup">
+              <div class="hero-popup_contain u-container">
+                <div class="hero-popup_layout u-grid-custom">
+                  <div class="hero-popup_col-1 u-column-1 is-desktop">
+                    <p class="u-text-style-small extra-small">
+                      London, UK
+                    </p>
+                  </div>
+                  <div class="hero-popup_col-2 u-column-1">
+                    <p class="u-text-style-small_nm extra-small">
+                      Liam Gallagher x ICON Magazine
+                    </p>
+                    <p class="u-text-style-small extra-small">
+                      2023
+                    </p>
+                    <div class="popup-types_wrap w-dyn-list">
+                      <div role="list" class="popup-types_list w-dyn-items">
+                        <div role="listitem" class="popup-types_item w-dyn-item">
+                          <div class="u-text-style-small extra-small">
+                            Shortform
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="u-text-style-small_nm extra-small">
+                      00:49
+                    </p>
+                    <div class="swipe-text">
+                      Swipe
+                    </div>
+                  </div>
+                  <div class="hero-popup_col-2 u-column-2 is-desktop">
+                    <div class="u-rich-text u-text-style-small extra-small w-richtext">
+                      <p>
+                        Set within an old car garage in London’s East End, we shot and cut a film for 
+                        <em>
+                          Icon Magazine
+                        </em>
+                        ’s cover, featuring arguably the greatest rock &amp; roll frontman the UK has ever produced - Liam Gallagher. Stripped-back and full throttle, the film channels Gallagher’s signature swagger against the grit and grease of the garage. It’s raw, loud, and unmistakably Liam - no frills, all attitude.
+                      </p>
+                      <p>‍</p>
+                    </div>
+                  </div>
+                  <div class="hero-popup_col-2 u-column-2 is-desktop">
+                    <div class="u-rich-text u-text-style-small extra-small w-richtext">
+                      <p>
+                        Director: Gavin Bond<br/>Director of Photography: Nick Carter
+                        <br/>
+                        <br/>
+                        Styling: Mark Anthony
+                        <br/>
+                        Music composer: Richard Breakspear
+                        <br/>‍
+                        <br/>
+                        Casting director: Vanessa Contini<br/>Production: Fuse Productions
+                        <br/>
+                        Icon producer: Leah Cosgriff
+                        <br/>
+                        Editor in Chief: Andrea Tenerani
+                        <br/>
+                        Creative Director: Lucas Toppini Studio
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div role="listitem" class="hero-slider_nav-item w-dyn-item">
+            <a href="/projects/celeste-live-from-union-chapel" class="w-inline-block">
+              <h2 slide-underline="" class="hero-slider_num">
+                CL01
+              </h2>
+            </a>
+            <h2 class="hero-slider_head-text is-inactive">
+              Celeste LIVE from Union Chapel
+            </h2>
+            <a href="/projects/celeste-live-from-union-chapel" class="hero-slider_hover w-inline-block">
+              <h2 trigger-overlay="" slide-underline="" class="hero-slider_head-text">
+                View Project
+              </h2>
+            </a>
+            <div class="hero-slider_popup">
+              <div class="hero-popup_contain u-container">
+                <div class="hero-popup_layout u-grid-custom">
+                  <div class="hero-popup_col-1 u-column-1 is-desktop">
+                    <p class="u-text-style-small extra-small">
+                      London, UK
+                    </p>
+                  </div>
+                  <div class="hero-popup_col-2 u-column-1">
+                    <p class="u-text-style-small_nm extra-small">
+                      Celeste LIVE from Union Chapel
+                    </p>
+                    <p class="u-text-style-small extra-small">
+                      2020
+                    </p>
+                    <div class="popup-types_wrap w-dyn-list">
+                      <div role="list" class="popup-types_list w-dyn-items">
+                        <div role="listitem" class="popup-types_item w-dyn-item">
+                          <div class="u-text-style-small extra-small">
+                            Music
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="u-text-style-small_nm extra-small">
+                      08:33
+                    </p>
+                    <div class="swipe-text">
+                      Swipe
+                    </div>
+                  </div>
+                  <div class="hero-popup_col-2 u-column-2 is-desktop">
+                    <div class="u-rich-text u-text-style-small extra-small w-richtext">
+                      <p>
+                        A two-track live session with Brit Award winner Celeste, filmed at the iconic Union Chapel in Islington, North London. Set against the venue’s atmospheric backdrop, the session captures Celeste’s voice in its rawest, most intimate form - stripped back, emotionally charged and deeply resonant. A timeless setting for a timeless talent.
+                      </p>
+                      <p>‍
+
+                      </p>
+                    </div>
+                  </div>
+                  <div class="hero-popup_col-2 u-column-2 is-desktop">
+                    <div class="u-rich-text u-text-style-small extra-small w-richtext">
+                      <p>
+                        Director of Photography: Nick Carter<br/>Camera Operator: Josh Sikes
+                        <br/>
+                        Camera Operator: Tony Chadwick
+                        <br/>
+                        Jib Operator: Barry Minter
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div role="listitem" class="hero-slider_nav-item w-dyn-item">
+            <a href="/projects/aaron-taylor-johnson" class="w-inline-block">
+              <h2 slide-underline="" class="hero-slider_num">
+                AT01
+              </h2>
+            </a>
+            <h2 class="hero-slider_head-text is-inactive">
+              Aaron Taylor-Johnson
+            </h2>
+            <a href="/projects/aaron-taylor-johnson" class="hero-slider_hover w-inline-block">
+              <h2 trigger-overlay="" slide-underline="" class="hero-slider_head-text">
+                View Project
+              </h2>
+            </a>
+            <div class="hero-slider_popup">
+              <div class="hero-popup_contain u-container">
+                <div class="hero-popup_layout u-grid-custom">
+                  <div class="hero-popup_col-1 u-column-1 is-desktop">
+                    <p class="u-text-style-small extra-small">
+                      London, UK
+                    </p>
+                  </div>
+                  <div class="hero-popup_col-2 u-column-1">
+                    <p class="u-text-style-small_nm extra-small">
+                      Aaron Taylor-Johnson
+                    </p>
+                    <p class="u-text-style-small extra-small">
+                      2023
+                    </p>
+                    <div class="popup-types_wrap w-dyn-list">
+                      <div role="list" class="popup-types_list w-dyn-items">
+                        <div role="listitem" class="popup-types_item w-dyn-item">
+                          <div class="u-text-style-small extra-small">
+                            Shortform
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="u-text-style-small_nm extra-small">
+                      01:22
+                    </p>
+                    <div class="swipe-text">
+                      Swipe
+                    </div>
+                  </div>
+                  <div class="hero-popup_col-2 u-column-2 is-desktop">
+                    <div class="u-rich-text u-text-style-small extra-small w-richtext">
+                      <p>
+                        A stylised editorial with Aaron Taylor-Johnson for 
+                        <em>
+                          Icon
+                        </em>
+                        Magazine, set in a dystopian world that blurs the line between fashion and narrative. Through stark environments, textured lighting, and a cinematic edge, the visuals explore control, rebellion and identity - placing Aaron at the centre of a world that feels both fractured and hyper-designed. A bold, atmospheric take on modern masculinity.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="hero-popup_col-2 u-column-2 is-desktop">
+                    <div class="u-rich-text u-text-style-small extra-small w-richtext">
+                      <p>Director: Gavin Bond
+                        <br/>
+                        Director of Photography: Nick Carter
+                        <br/>
+                        Stylist: Luke Day<br/>Stylist Assistant: Kate Marriot
+                        <br/>
+                        Hair &amp; Makeup: Christine Blundell
+                        <br/>
+                        Lighting: Dominic @ ProLighting
+                        <br/>
+                        Producer: Stuart Phillips
+                        <br/>
+                        Runner: Tigerlily Pollicott
+                        <br/>
+                        Casting Director: Vanessa Contini
+                        <br/>
+                        Icon Producer: Leah Cosgriff
+                        <br/>
+                        Editor in Chief: Andrea Tenerani
+                        <br/>
+                        Creative Director: Luca Stoppini
+                      </p>
+                      <p>‍
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slider_wrap w-dyn-list">
+        <div role="list" class="hero-slider_list w-dyn-items">
+          <div role="listitem" class="hero-slider_item w-dyn-item">
+            <div class="hero-slide_visual u-cover-absolute">
+              <div class="g_visual_background u-cover-absolute">
+
+              </div>
+              <video src="hero.MP4" autoplay=" " loop="" muted="" playsinline=" " class="hero-visual_el-vid u-cover-absolute">
+
+              </video>
+              <div class="slide-overlay u-cover-absolute">
+
+              </div>
+            </div>
+            <div split="" class="hero-slide_vid-small u-grid-custom">
+              <div class="hero-vid_small col3-right u-column-custom">
+                <div class="g_visual_wrap u-cover-absolute">
+                  <div class="g_visual_background u-cover-absolute">
+
+                  </div><video src="hero.MP4" autoplay=" " loop="" muted="" playsinline=" " class="g_visual_video u-cover-absolute">
+
+                  </video>
+                </div>
+                <a href="/projects/ghostpoet-oh-lord" class="is-mobile_swipe w-inline-block">
+                  <div class="swipe-holder">
+                    <div class="mobile-text_link">
+                      View Project
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div role="listitem" class="hero-slider_item w-dyn-item">
+            <div class="hero-slide_visual u-cover-absolute">
+              <div class="g_visual_background u-cover-absolute">
+
+              </div>
+              <video src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee%2F6836db1dec894c2955a7fda5_LIAM%20GALLAGHER-transcode.mp4" autoplay=" " loop="" muted="" playsinline=" " class="hero-visual_el-vid u-cover-absolute">
+
+              </video>
+              <div class="slide-overlay u-cover-absolute">
+
+              </div>
+            </div>
+            <div split="" class="hero-slide_vid-small u-grid-custom">
+              <div class="hero-vid_small col3-right u-column-custom">
+                <div class="g_visual_wrap u-cover-absolute">
+                  <div class="g_visual_background u-cover-absolute">
+
+                  </div>
+                  <video src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee%2F6836db1dec894c2955a7fda5_LIAM%20GALLAGHER-transcode.mp4" autoplay=" " loop="" muted="" playsinline=" " class="g_visual_video u-cover-absolute">
+
+                  </video>
+                </div>
+                <a href="/projects/liam-gallagher-icon-magazine" class="is-mobile_swipe w-inline-block">
+                  <div class="swipe-holder">
+                    <div class="mobile-text_link">
+                      View Project
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div role="listitem" class="hero-slider_item w-dyn-item">
+            <div class="hero-slide_visual u-cover-absolute">
+              <div class="g_visual_background u-cover-absolute">
+
+              </div>
+              <video src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee%2F6853c1caa4428782f00caef5_Celestemp4-transcode.mp4" autoplay=" " loop="" muted="" playsinline=" " class="hero-visual_el-vid u-cover-absolute">
+
+              </video>
+              <div class="slide-overlay u-cover-absolute">
+
+              </div>
+            </div>
+            <div split="" class="hero-slide_vid-small u-grid-custom">
+              <div class="hero-vid_small col3-right u-column-custom">
+                <div class="g_visual_wrap u-cover-absolute">
+                  <div class="g_visual_background u-cover-absolute">
+
+                  </div>
+                  <video src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee%2F6853c1caa4428782f00caef5_Celestemp4-transcode.mp4" autoplay=" " loop="" muted="" playsinline=" " class="g_visual_video u-cover-absolute">
+
+                  </video>
+                </div>
+                <a href="/projects/celeste-live-from-union-chapel" class="is-mobile_swipe w-inline-block"><div class="swipe-holder"><div class="mobile-text_link">
+                  View Project
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div role="listitem" class="hero-slider_item w-dyn-item">
+        <div class="hero-slide_visual u-cover-absolute">
+          <div class="g_visual_background u-cover-absolute">
+
+          </div>
+          <video src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee%2F6853bf3f43b1d9067bda2596_Aaron%20Taylor-Johnsonmp4-transcode.mp4" autoplay=" " loop="" muted="" playsinline=" " class="hero-visual_el-vid u-cover-absolute">
+
+          </video>
+          <div class="slide-overlay u-cover-absolute">
+
+          </div>
+        </div>
+        <div split="" class="hero-slide_vid-small u-grid-custom">
+          <div class="hero-vid_small col3-right u-column-custom">
+            <div class="g_visual_wrap u-cover-absolute">
+              <div class="g_visual_background u-cover-absolute">
+
+              </div>
+              <video src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee%2F6853bf3f43b1d9067bda2596_Aaron%20Taylor-Johnsonmp4-transcode.mp4" autoplay=" " loop="" muted="" playsinline=" " class="g_visual_video u-cover-absolute">
+
+              </video>
+            </div>
+            <a href="/projects/aaron-taylor-johnson" class="is-mobile_swipe w-inline-block">
+              <div class="swipe-holder">
+                <div class="mobile-text_link">
+                  View Project
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div split="" class="site-info u-vflex-left-top">
+    <div class="hero-intro_copy">
+      <p class="u-text-style-large">
+        We’re a visual production studio
+        <br/>
+        shaped by culture, built to influence
+      </p>
+    </div>
+    <div class="site-info_holder u-grid-desktop is-fixed">
+      <div class="hero-layout_inner">
+        <div class="u-column-1">
+          <p class="u-text-style-main">
+            Ⓒ
+            <span class="date">
+              2025
+            </span>
+          </p>
+        </div>
+      </div>
+      <div class="hero-timestamp u-column-custom">
+
+      </div>
+    </div>
+  </div>
+</div>
+<div word-shift="wrap" nav-trigger="" class="home-intro_section">
+  <div class="home-intro_contain u-container">
+    <div class="eyebrow-el u-hflex-between-center">
+      <div class="eyebrow-text">
+        Our  mission
+      </div>
+      <div class="eyebrow-text">
+        Our  mission
+      </div>
+    </div>
+    <div class="home-squeeze_wrap">
+      <div word-shift="line" class="home-squeeze_line">
+        <div class="home-squeeze_word">
+          <h3 class="squeeze-head">
+            We
+          </h3>
+        </div>
+        <div class="home-squeeze_word">
+          <h3 class="squeeze-head">
+            capture
+          </h3>
+        </div>
+        <div class="home-squeeze_word">
+          <h3 class="squeeze-head">
+            the
+          </h3>
+        </div>
+      </div>
+      <div word-shift="line" class="home-squeeze_line is-alt">
+        <div class="home-squeeze_word">
+          <h3 class="squeeze-head">
+            culture
+          </h3>
+        </div>
+        <div class="home-squeeze_word">
+          <h3 class="squeeze-head">
+            that
+          </h3>
+        </div>
+        <div class="home-squeeze_word">
+          <h3 class="squeeze-head">
+            
+          </h3>
+        </div>
+      </div>
+      <div word-shift="line" class="home-squeeze_line">
+        <div class="home-squeeze_word">
+          <h3 class="squeeze-head">
+            shapes
+          </h3>
+        </div>
+        <div class="home-squeeze_word">
+          <h3 class="squeeze-head">
+            the
+          </h3>
+        </div>
+        <div class="home-squeeze_word">
+          <h3 class="squeeze-head">
+            talent
+          </h3>
+        </div>
+      </div>
+      <div word-shift="line" class="home-squeeze_line is-alt">
+        <div class="home-squeeze_word">
+          <h3 class="squeeze-head">
+            you
+          </h3>
+        </div>
+        <div class="home-squeeze_word">
+          <h3 class="squeeze-head">
+            work
+          </h3>
+        </div>
+        <div class="home-squeeze_word">
+          <h3 class="squeeze-head">
+            with
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="btn-holder">
+    <div class="btn-contain u-container-small">
+      <a b-hov="" href="/studio" class="btn-el w-inline-block">
+        <div b-bg="" class="btn-bg">
+
+        </div>
+        <div b-text_wrap="" class="btn-text_wrap">
+          <div b-text="" class="btn-el_text">
+            more about us
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="home-projects_section">
+  <div class="home-projects_contain u-container">
+    <div class="eyebrow-el u-hflex-between-center">
+      <div class="eyebrow-text">
+        Featured projects
+      </div>
+      <div class="eyebrow-text">
+        Featured projects
+      </div>
+    </div>
+    <div class="home-projects_layout">
+      <div class="projects-col_wrap w-dyn-list">
+        <div role="list" class="projects-col_list w-dyn-items">
+          <div role="listitem" class="projects-col_item w-dyn-item">
+            <a h-ul="trigger" data-cursor="02:48" href="/projects/dimension-dj-turn-it-up" class="project-link w-inline-block">
+              <div class="project-visual_wrap">
+                <div class="project-visual u-cover-absolute">
+                  <video src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee%2F6853c22195a5a5783252370a_Dimension%20DJ%20Turn%20It%20Upmp4-transcode.mp4" autoplay=" " loop="" muted="" playsinline=" " class="project-visual_el">
+
+                  </video>
+                  <img src="https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/6827b6519471a6a19bdedd2c_Untitled-1-Recovered.webp" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/6827b6519471a6a19bdedd2c_Untitled-1-Recovered-p-500.webp 500w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/6827b6519471a6a19bdedd2c_Untitled-1-Recovered-p-800.webp 800w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/6827b6519471a6a19bdedd2c_Untitled-1-Recovered-p-1080.webp 1080w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/6827b6519471a6a19bdedd2c_Untitled-1-Recovered.webp 1500w" class="project-visual_el u-cover-absolute"/>
+                  <div class="project-overlay">
+                    <div class="project-overlay_layout">
+                      <div class="u-hflex-between-center">
+                        <div class="u-text_std-large">
+                          watch
+                        </div>
+                        <div class="u-text_std-large h-flip top-row">
+                          watch
+                        </div>
+                      </div>
+                      <div class="u-hflex-between-stretch">
+                        <div class="u-text_std-large h-flip">
+                          watch
+                        </div>
+                        <div class="u-text_std-large">
+                          watch
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info_layout">
+                <div class="project-info_col">
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      London, UK
+                    </p>
+                  </div>
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      Dimension - DJ Turn It Up
+                    </p>
+                    <p class="u-text-style-small_nm">
+                      2023
+                    </p>
+                  </div>
+                </div>
+                <div class="project-info_col">
+                  <div class="project-info_inner is-number">
+                    <p h-ul="target" class="text-large">
+                      DM03
+                    </p>
+                  </div>
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      Music
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div role="listitem" class="projects-col_item w-dyn-item">
+            <a h-ul="trigger" data-cursor="01:29" href="/projects/raye-x-the-grammy-awards" class="project-link w-inline-block">
+              <div class="project-visual_wrap">
+                <div class="project-visual u-cover-absolute">
+                  <video src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee%2F6853cad0731f50953a43dc44_Raye%20x%20The%20Grammy%20Awardsmp4-transcode.mp4" autoplay=" " loop="" muted="" playsinline=" " class="project-visual_el">
+
+                  </video>
+                  <img src="https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/682c1db56eb893c3cd321610_3123.webp" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/682c1db56eb893c3cd321610_3123-p-500.webp 500w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/682c1db56eb893c3cd321610_3123-p-800.webp 800w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/682c1db56eb893c3cd321610_3123-p-1080.webp 1080w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/682c1db56eb893c3cd321610_3123.webp 1500w" class="project-visual_el u-cover-absolute"/>
+                  <div class="project-overlay">
+                    <div class="project-overlay_layout">
+                      <div class="u-hflex-between-center">
+                        <div class="u-text_std-large">
+                          watch
+                        </div>
+                        <div class="u-text_std-large h-flip top-row">
+                          watch
+                        </div>
+                      </div>
+                      <div class="u-hflex-between-stretch">
+                        <div class="u-text_std-large h-flip">
+                          watch
+                        </div>
+                        <div class="u-text_std-large">
+                          watch
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info_layout">
+                <div class="project-info_col">
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      Los Angeles, USA
+                    </p>
+                  </div>
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      Raye X The Grammy Awards
+                    </p>
+                    <p class="u-text-style-small_nm">
+                      2025
+                    </p>
+                  </div>
+                </div>
+                <div class="project-info_col">
+                  <div class="project-info_inner is-number">
+                    <p h-ul="target" class="text-large">
+                      GA01
+                    </p>
+                  </div>
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      Shortform
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div role="listitem" class="projects-col_item w-dyn-item">
+            <a h-ul="trigger" data-cursor="01:30" href="/projects/moty-x-boss" class="project-link w-inline-block">
+              <div class="project-visual_wrap">
+                <div class="project-visual u-cover-absolute">
+                  <video src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee%2F6853c8a296a153b0e2c144ae_MOTY%20X%20BOSSmp4-transcode.mp4" autoplay=" " loop="" muted="" playsinline=" " class="project-visual_el">
+
+                  </video>
+                  <img src="https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/683e19b6c8cf834b90f51a0f_Untitled-1-Recovered.webp" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/683e19b6c8cf834b90f51a0f_Untitled-1-Recovered-p-500.webp 500w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/683e19b6c8cf834b90f51a0f_Untitled-1-Recovered-p-800.webp 800w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/683e19b6c8cf834b90f51a0f_Untitled-1-Recovered-p-1080.webp 1080w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/683e19b6c8cf834b90f51a0f_Untitled-1-Recovered.webp 1500w" class="project-visual_el u-cover-absolute"/>
+                  <div class="project-overlay">
+                    <div class="project-overlay_layout">
+                      <div class="u-hflex-between-center">
+                        <div class="u-text_std-large">
+                          watch
+                        </div>
+                        <div class="u-text_std-large h-flip top-row">
+                          watch
+                        </div>
+                      </div>
+                      <div class="u-hflex-between-stretch">
+                        <div class="u-text_std-large h-flip">
+                          watch
+                        </div>
+                        <div class="u-text_std-large">
+                          watch
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info_layout">
+                <div class="project-info_col">
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      London, UK
+                    </p>
+                  </div>
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      MOTY X BOSS
+                    </p>
+                    <p class="u-text-style-small_nm">
+                      2023
+                    </p>
+                  </div>
+                </div>
+                <div class="project-info_col">
+                  <div class="project-info_inner is-number">
+                    <p h-ul="target" class="text-large">
+                      GQ11
+                    </p>
+                  </div>
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      Commercial
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="projects-col_wrap w-dyn-list">
+        <div role="list" class="projects-col_list w-dyn-items">
+          <div role="listitem" class="projects-col_item alt-layout w-dyn-item">
+            <a h-ul="trigger" data-cursor="25:43" href="/projects/gq-robert-de-niro" class="project-link w-inline-block">
+              <div class="project-visual_wrap">
+                <div class="project-visual u-cover-absolute">
+                  <video src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee%2F684c1603341f6422f7b45d7b_GQ_Robert_De_Niro-transcode.mp4" autoplay=" " loop="" muted="" playsinline=" " class="project-visual_el">
+
+                  </video>
+                  <img src="https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/683daf724d0c7aa499d80629_89B28ED0-D591-4CBC-B603-4059693487F7_1_105_c.webp" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/683daf724d0c7aa499d80629_89B28ED0-D591-4CBC-B603-4059693487F7_1_105_c-p-500.webp 500w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/683daf724d0c7aa499d80629_89B28ED0-D591-4CBC-B603-4059693487F7_1_105_c-p-800.webp 800w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/683daf724d0c7aa499d80629_89B28ED0-D591-4CBC-B603-4059693487F7_1_105_c-p-1080.webp 1080w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/683daf724d0c7aa499d80629_89B28ED0-D591-4CBC-B603-4059693487F7_1_105_c.webp 1182w" class="project-visual_el u-cover-absolute"/>
+                  <div class="project-overlay">
+                    <div class="project-overlay_layout">
+                      <div class="u-hflex-between-center">
+                        <div class="u-text_std-large">
+                          watch
+                        </div>
+                        <div class="u-text_std-large h-flip top-row">
+                          watch
+                        </div>
+                      </div>
+                      <div class="u-hflex-between-stretch">
+                        <div class="u-text_std-large h-flip">
+                          watch
+                        </div>
+                        <div class="u-text_std-large">
+                          watch
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info_layout">
+                <div class="project-info_col">
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      London, UK
+                    </p>
+                  </div>
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      GQ: Robert De Niro
+                    </p>
+                    <p class="u-text-style-small_nm">
+                      2025
+                    </p>
+                  </div>
+                </div>
+                <div class="project-info_col">
+                  <div class="project-info_inner is-number">
+                    <p h-ul="target" class="text-large">
+                      GQ12
+                    </p>
+                  </div>
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      Shortform
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div role="listitem" class="projects-col_item alt-layout w-dyn-item">
+            <a h-ul="trigger" data-cursor="03:21" href="/projects/sara-landry-heaven" class="project-link w-inline-block">
+              <div class="project-visual_wrap">
+                <div class="project-visual u-cover-absolute">
+                  <video src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee%2F6853cafbe0941a981554c449_Sara%20Landry%20Heavenmp4-transcode.mp4" autoplay=" " loop="" muted="" playsinline=" " class="project-visual_el">
+                    
+                  </video>
+                  <img src="https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/681b67e688de38281575037e_SL.webp" alt="" sizes="100vw" srcset="https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/681b67e688de38281575037e_SL-p-500.webp 500w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/681b67e688de38281575037e_SL-p-800.webp 800w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/681b67e688de38281575037e_SL-p-1080.webp 1080w, https://cdn.prod.website-files.com/673af9b53fd6660d0c97fd89/681b67e688de38281575037e_SL.webp 1500w" class="project-visual_el u-cover-absolute"/>
+                  <div class="project-overlay">
+                    <div class="project-overlay_layout">
+                      <div class="u-hflex-between-center">
+                        <div class="u-text_std-large">
+                          watch
+                        </div>
+                        <div class="u-text_std-large h-flip top-row">
+                          watch
+                        </div>
+                      </div>
+                      <div class="u-hflex-between-stretch">
+                        <div class="u-text_std-large h-flip">
+                          watch
+                        </div>
+                        <div class="u-text_std-large">
+                          watch
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info_layout">
+                <div class="project-info_col">
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      London, UK
+                    </p>
+                  </div>
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      Sara Landry - Heaven
+                    </p>
+                    <p class="u-text-style-small_nm">
+                      2024
+                    </p>
+                  </div>
+                </div>
+                <div class="project-info_col">
+                  <div class="project-info_inner is-number">
+                    <p h-ul="target" class="text-large">
+                      SL02
+                    </p>
+                  </div>
+                  <div class="project-info_inner">
+                    <p class="u-text-style-small_nm">
+                      Music
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="btn-holder">
+    <div class="btn-contain u-container-small">
+      <a b-hov="" href="/work" class="btn-el w-inline-block">
+        <div b-bg="" class="btn-bg">
+
+        </div><div b-text_wrap="" class="btn-text_wrap">
+          <div b-text="" class="btn-el_text">
+            view all work
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="services_section">
+  <div class="section-contain u-container">
+    <div class="info-item">
+      <div class="info-row">
+        <div class="info-col col-6">
+          <div class="info-col_inner">
+            <p class="u-text-style-small_nm">
+              Our Services
+            </p>
+          </div>
+          <div class="info-col_inner">
+            <p scroll-split="" split-it="" class="u-text_mono-large services">
+              Branded Content
+              <br/>
+              Commercials
+              <br/>
+              Music Videos
+              <br/>
+              Show Visuals
+              <br/>
+              Live Streaming
+              <br/>
+              Multicam Live Session
+            </p>
+          </div>
+        </div>
+        <div class="info-col col-3"><div class="info-col_inner"><p class="u-text-style-small_nm">06</p></div><div class="info-col_inner"><p class="u-text-style-small_nm u-text-align-right">Shortform<br/>Longform<br/>Music</p></div></div></div><div class="horizontal-line"></div></div></div></div><div class="home-scroll_section"><div class="section-contain u-container"><div class="eyebrow-el u-hflex-between-center is-different"><div class="eyebrow-text">Shaped by culture</div><div class="eyebrow-text">Shaped by culture</div></div></div><div lottie-wrap="" class="home-scroll_component"><div class="g_visual_wrap u-cover-absolute"><div class="g_visual_background u-cover-absolute"></div><img src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/67dbe38449ba32522ee95f1d_BTTC.webp" alt="" sizes="(max-width: 3300px) 100vw, 3300px" srcset="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/67dbe38449ba32522ee95f1d_BTTC-p-500.webp 500w, https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/67dbe38449ba32522ee95f1d_BTTC-p-800.webp 800w, https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/67dbe38449ba32522ee95f1d_BTTC-p-1080.webp 1080w, https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/67dbe38449ba32522ee95f1d_BTTC-p-1600.webp 1600w, https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/67dbe38449ba32522ee95f1d_BTTC-p-2000.webp 2000w, https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/67dbe38449ba32522ee95f1d_BTTC.webp 3300w" class="g_visual_img u-cover-absolute"/><div STYLE="opacity: 40%;" class="g_visual_overlay u-cover-absolute"></div></div><div class="home-scroll_el"><div lottie-holder="scrub" class="home-footer_lottie"><div lottie-url="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/67e3e117aa492a248d1f61d1_BttcDelay_V5.json" lottie-element="" class="lottie-el is-home"></div></div></div></div></div><div footer-trigger="" class="footer-component"><div class="section-contain u-container"><div class="footer-grid u-grid-custom m-gap_4"><div footer-col="" class="fcol-1 u-column-1"><div class="footer-col_inner"><p split-it="" class="u-text-style-small_nm">UK</p></div></div><div footer-col="" class="fcol-1 u-column-2"><div class="footer-col_inner u-vflex-left-top u-gap-6"><div class="footer-col_wrap"><p split-it="" class="u-text-style-small">We’re a visual production studio shaped by culture, built to influence</p><p split-it="" class="u-text-style-small">Shortform<br/>Longform<br/>Music<br/></p></div><p split-it="" class="u-text-style-small">2018 - <span class="date">2025</span></p></div></div><div footer-col="" class="fcol-1 u-column-2 m-right is-desktop"><div class="footer-col_inner"><p split-it="" class="u-text-style-small_nm">Our deep knowledge of talent and the communities that love them means we create authentic and beautifully shot visuals that reflect the worlds and people you want to connect with.<br/>‍</p><p split-it="" class="u-text-style-small_nm">From working with directors and writers with culturally relevant perspectives, to filming some of the most famous names on the planet, we create content that feels true to you and your brand.</p></div></div><div footer-col="" class="fcol-1 u-column-2 is-desktop"><div count-items="wrap" class="footer-col_grid u-grid-custom"><p split-it="" class="u-text-style-small_nm">Team<br/><span count-items="total">##</span></p><div class="cms-col_wrap w-dyn-list"><div role="list" class="cms-col_list w-dyn-items"><div count-items="item" role="listitem" class="cms-col_item w-dyn-item"><p split-it="" class="u-text-style-small_nm">Nick Carter</p></div><div count-items="item" role="listitem" class="cms-col_item w-dyn-item"><p split-it="" class="u-text-style-small_nm">Eolande Diaz</p></div><div count-items="item" role="listitem" class="cms-col_item w-dyn-item"><p split-it="" class="u-text-style-small_nm">Alex Alexandrou</p></div></div></div></div></div><div footer-col="" class="fcol-2 u-column-3 is-desktop"><div count-items="wrap" class="footer-col_grid u-grid-desktop is-desktop"><div class="u-column-4"><a h-ul="trigger" href="/directors" class="text-link_wrap w-inline-block"><p h-ul="target" split-it="" class="u-text-style-small_nm">Directors</p><p count-items="total" split-it="" class="u-text-style-small_nm">##</p></a></div><div class="u-column-8"><div class="cms-col_wrap w-dyn-list"><div role="list" class="cms-col_list w-dyn-items"><div count-items="item" role="listitem" class="cms-col_item w-dyn-item"><a h-ul="trigger" href="/directors/niall-coffey" class="text-link_wrap w-inline-block"><p h-ul="target" split-it="" class="u-text-style-small_nm">Niall Coffey</p></a></div><div count-items="item" role="listitem" class="cms-col_item w-dyn-item"><a h-ul="trigger" href="/directors/simon-lane" class="text-link_wrap w-inline-block"><p h-ul="target" split-it="" class="u-text-style-small_nm">Simon Lane</p></a></div><div count-items="item" role="listitem" class="cms-col_item w-dyn-item"><a h-ul="trigger" href="/directors/nick-carter" class="text-link_wrap w-inline-block"><p h-ul="target" split-it="" class="u-text-style-small_nm">Nick Carter</p></a></div><div count-items="item" role="listitem" class="cms-col_item w-dyn-item"><a h-ul="trigger" href="/directors/david-sheldrick" class="text-link_wrap w-inline-block"><p h-ul="target" split-it="" class="u-text-style-small_nm">David Sheldrick</p></a></div></div></div></div></div><div count-items="wrap" class="footer-col_grid u-grid-desktop"><div class="u-column-4"><a h-ul="trigger" href="/careers" class="text-link_wrap w-inline-block"><p h-ul="target" split-it="" class="u-text-style-small_nm">Careers</p><p count-items="total" split-it="" class="u-text-style-small_nm">#<span count-items="total">#</span></p></a></div><div class="u-column-8"><div class="cms-col_wrap w-dyn-list"><div role="list" class="cms-col_list w-dyn-items"><div count-items="item" role="listitem" class="cms-col_item w-dyn-item"><a h-ul="trigger" href="/careers" class="text-link_wrap m-underline w-inline-block"><p h-ul="target" split-it="" class="u-text-style-small_nm">Editor</p></a></div></div></div></div></div></div><div footer-col="" class="fcol-last u-column-2 is-desktop"><div class="footer-col_inner"><p split-it="" class="u-text-style-small_nm">Services:<br/></p><p split-it="" class="u-text-style-small_nm">Branded Content<br/>Music Videos<br/>Show Visuals<br/>Live Streaming <br/>Multicam Live Session</p></div></div></div><div lottie-wrap="" class="footer-grid u-grid-custom"><div lottie-holder="loop" class="footer-track u-column-2"><div lottie-url="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/67a366d973b55ca04f69e25f_IconRotation.json" lottie-element="" class="footer-lottie_el"></div></div></div><div class="footer-bot"><div class="footer-grid u-grid-custom"><div class="fcol-malvah u-column-2"><div class="footer-col_inner"><a h-ul="trigger" href="https://www.malvah.co/" target="_blank" class="text-link_wrap w-inline-block"><p class="u-text-style-small_nm">Site by <span h-ul="target">Malvah</span></p></a></div></div></div></div></div></div></div><div class="cursor"><p class="cursor-text"></p></div></div><div class="screensaver"><div class="screensaver-bg"></div><div class="screensaver-lottie" data-w-id="489cb8cb-e1dc-7495-697b-20db9bbf43cf" data-animation-type="spline" data-spline-url="https://prod.spline.design/ulxkGC0GfKWnqn3h/scene.splinecode"><canvas></canvas></div></div><div class="load_grid"><div class="load_bg"></div><div class="load_grid-item"><div class="load-grid_item-1"></div><div class="load-grid_item-2"></div></div><div class="load_grid-item"><div class="load-grid_item-1"></div><div class="load-grid_item-2"></div></div><div class="load_grid-item"><div class="load-grid_item-1"></div><div class="load-grid_item-2"></div></div><div class="load_grid-item"><div class="load-grid_item-1"></div><div class="load-grid_item-2"></div></div><div class="load_grid-item"><div class="load-grid_item-1"></div><div class="load-grid_item-2"></div></div><div class="load_grid-item"><div class="load-grid_item-1"></div><div class="load-grid_item-2"></div></div><div class="site-info_holder-pt u-grid-desktop is-fixed"><div class="hero-layout_inner"><div class="u-column-1"><p class="u-text-style-main">Ⓒ<span class="date">2025</span></p></div></div><div class="hero-timestamp u-column-custom"><p class="u-text-style-main">Lnd, UK _ <span class="current-time">12:55:05</span></p></div></div></div><div class="preloader-component"><div class="preloader-bg"></div><div class="preloader-top"><div class="progress-number">000<br/></div></div><div class="preloader-lottie_holder"><div data-w-id="e63a49e6-606f-de14-f519-45e256a1bbd6" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/673af1c2580878ef0a117922_PreLoader_V3.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="0" data-duration="7"></div></div><div split="" class="preloader-bot_layout u-grid-desktop"><div class="hero-layout_inner"><div class="u-column-1"><p class="u-text-style-main">Ⓒ2025</p></div></div><div class="hero-timestamp u-column-custom"><p class="u-text-style-main">Lnd, UK _ <span class="current-time">12:55:05</span></p></div></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=673af1c2580878ef0a1178ee" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/js/bttc-dev.schunk.59e1e4fbc2ff36e0.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/js/bttc-dev.schunk.a8a6b9e417ae1cbb.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/js/bttc-dev.00553805.3c4352efad3f666c.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/67d7fde02b6ca6daeacf2cb1_swup.txt"></script>
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Flip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/CustomEase.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+<script src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/67b3283b07b4c281581d5354_hammer.txt"></script>
+<script src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/67d5626295de9f5015e6f017_split.txt"></script>
+<script src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/67a5c010a737097081b5cb7f_scramble.txt"></script>
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script> 
+<!--<script src="https://wm4ww3-3000.csb.app/scripts.js"></script>-->
+<script src="https://cdn.prod.website-files.com/673af1c2580878ef0a1178ee/688de958373079e6fc85a19e_bttc-scripts.txt"></script>
+</body></html>
