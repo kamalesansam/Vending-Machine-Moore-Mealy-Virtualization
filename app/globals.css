@@ -3,7 +3,14 @@
   box-sizing: border-box;
 }
 
-
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  min-height: 100vh;
+}
 
 main {
   padding: 2rem;
@@ -292,4 +299,35 @@ footer {
   font-size: 0.95rem;
   line-height: 1.4rem;
   white-space: pre-line;
+}
+
+/* ===== Project Header ===== */
+.project-header {
+  text-align: center;
+  background-color: #1e293b;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.project-header h1 {
+  font-size: 1.4rem;
+  color: #93c5fd;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.project-header p {
+  margin: 0.2rem 0;
+  color: #e2e8f0;
+  font-size: 0.95rem;
+}
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: #334155;
+  margin-bottom: 1.5rem;
 }

@@ -18,7 +18,6 @@ export default function Home() {
   ]
 
   const addInput = (i) => setSequence([...sequence, i])
-
   const clear = () => {
     setSequence([])
     setResult(null)
@@ -43,11 +42,9 @@ export default function Home() {
   const prevStep = () => setStep((s) => Math.max(s - 1, 0))
   const activeState = result?.trace?.[step]?.afterState ?? 'S0'
 
-  // Explanation logic
   const currentTrace = result?.trace?.[step]
   const currentInput = currentTrace?.input
   const currentOutput = currentTrace?.output
-  const currentNote = currentTrace?.note
 
   const getExplanation = () => {
     if (!result || !currentTrace) return ''
@@ -55,7 +52,7 @@ export default function Home() {
     if (model === 'moore') {
       if (currentOutput?.prodDispensed) {
         return `🟢 In the Moore model, output (product dispense) occurs automatically upon entering state ${currentTrace.afterState}, 
-        because output depends only on the state — not on pressing the button.`
+because output depends only on the state — not on pressing the button.`
       } else if (currentInput === 'IP') {
         return `ℹ️ Pressing IP here only resets the machine, since Moore already dispensed when it reached ${currentTrace.beforeState}.`
       } else {
@@ -64,7 +61,7 @@ export default function Home() {
     } else {
       if (currentOutput?.prodDispensed) {
         return `🟢 In the Mealy model, output (product dispense) happens now because the input '${currentInput}' triggered it — 
-        Mealy outputs depend on both the current state and the input.`
+Mealy outputs depend on both the current state and the input.`
       } else if (currentInput === 'IP') {
         return `⚠️ IP was pressed but funds are insufficient (${currentTrace.beforeState}). Mealy outputs only when both state and input conditions are satisfied.`
       } else {
@@ -76,10 +73,21 @@ export default function Home() {
   return (
     <main>
       <div className="container">
+
+        {/* ======= Project Heading Section ======= */}
+        <div className="project-header">
+          <h1>Theory of Automata Project – Based Learning | Code Implementation</h1>
+          <p><strong>By:</strong></p>
+          <p>Sam Kamalesan (23WU0101154)</p>
+          <p>Snigdha Roy (23WU0101159)</p>
+        </div>
+
+        <hr className="divider" />
+
+        {/* ======= Main Simulation Section ======= */}
         <h1>Vending Machine FSM — Moore vs Mealy</h1>
         <p>Simulate and understand how output behavior differs between Moore and Mealy models.</p>
 
-        {/* ===== Model selector ===== */}
         <div className="controls">
           <div className="model-select">
             <label>
@@ -104,7 +112,6 @@ export default function Home() {
             </label>
           </div>
 
-          {/* ===== Input Buttons ===== */}
           <div className="buttons">
             {buttons.map((b) => (
               <button
@@ -117,7 +124,6 @@ export default function Home() {
             ))}
           </div>
 
-          {/* ===== Sequence Display ===== */}
           <div className="sequence">
             <strong>Sequence:</strong>
             {sequence.length ? (
@@ -131,7 +137,6 @@ export default function Home() {
             )}
           </div>
 
-          {/* ===== Actions ===== */}
           <div>
             <button
               onClick={run}
@@ -146,10 +151,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* ===== Result Section ===== */}
         {result && (
           <>
-            {/* State Diagram */}
             <div className="state-diagram">
               <h2>State Diagram (S0 → S3)</h2>
               <div className="states">
@@ -180,14 +183,12 @@ export default function Home() {
                 <button onClick={nextStep}>Next ▶</button>
               </div>
 
-              {/* Dynamic Explanation Panel */}
               <div className="explanation">
                 <h3>Explanation</h3>
                 <p>{getExplanation()}</p>
               </div>
             </div>
 
-            {/* Trace Output Table */}
             <div className="trace">
               <h2>Trace Output</h2>
               <table>
@@ -224,7 +225,6 @@ export default function Home() {
           </>
         )}
 
-        {/* Footer */}
         <footer>
           <p>
             Implementation demonstrating <b>Moore vs Mealy FSM</b> for a 75¢ vending machine.
