@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vending Machine: Moore and Mealy Virtualization
+
+This project is a high-fidelity, web-based virtualization of Finite State Machines (FSM) applied to a vending machine control system. It serves as a comparative study of Moore and Mealy architectural patterns, built using the Next.js framework to provide an interactive and performant simulation environment.
+
+## Technical Overview
+
+The application simulates the sequential logic required to process currency inputs, track internal state transitions, and execute output logic for product dispensing.
+
+### Moore Model
+* **Logic Profile**: The output is strictly a function of the current state.
+* **Characteristics**: Offers superior timing stability and simplified state-to-output mapping, ensuring synchronous behavior across the virtualization.
+
+### Mealy Model
+* **Logic Profile**: The output is determined by a combination of the current state and asynchronous external inputs.
+* **Characteristics**: Achieves a more compact state register footprint and provides an immediate output response upon input detection.
+
+
+
+## Tech Stack
+
+* **Framework**: [Next.js](https://nextjs.org) (App Router)
+* **Styling**: Tailwind CSS
+* **Logic Engine**: Custom JavaScript-based FSM controllers
+* **Deployment**: Vercel
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+```
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Open http://localhost:3000 with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+System Architecture
+The virtualization engine is structured to mirror digital hardware components:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+State Registers: Managed via React state to hold the current FSM position.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Combinational Logic: Pure functions that calculate the next state and outputs based on Moore/Mealy definitions.
 
-## Learn More
+Visualization Layer: Real-time rendering of state transition diagrams and truth tables.
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about the underlying FSM logic or Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js Documentation - Learn about Next.js features and API.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Digital Logic Design - An overview of Finite State Machines.
